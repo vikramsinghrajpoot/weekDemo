@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CECD608F1EDFE29900DA9952 /* WeekCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD608E1EDFE29900DA9952 /* WeekCalendarCell.swift */; };
+		FC2D90281EDF3F2E008FBDBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2D90271EDF3F2E008FBDBD /* AppDelegate.swift */; };
+		FC2D902A1EDF3F2E008FBDBD /* WeekCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2D90291EDF3F2E008FBDBD /* WeekCalendar.swift */; };
+		FC2D902D1EDF3F2E008FBDBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2D902B1EDF3F2E008FBDBD /* Main.storyboard */; };
+		FC2D902F1EDF3F2E008FBDBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2D902E1EDF3F2E008FBDBD /* Assets.xcassets */; };
+		FC2D90321EDF3F2E008FBDBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2D90301EDF3F2E008FBDBD /* LaunchScreen.storyboard */; };
+		FC2D903A1EDF43FE008FBDBD /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2D90391EDF43FE008FBDBD /* Date.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CECD608E1EDFE29900DA9952 /* WeekCalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekCalendarCell.swift; sourceTree = "<group>"; };
+		FC2D90241EDF3F2E008FBDBD /* WeekCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeekCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2D90271EDF3F2E008FBDBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC2D90291EDF3F2E008FBDBD /* WeekCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCalendar.swift; sourceTree = "<group>"; };
+		FC2D902C1EDF3F2E008FBDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC2D902E1EDF3F2E008FBDBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2D90311EDF3F2E008FBDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC2D90331EDF3F2E008FBDBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2D90391EDF43FE008FBDBD /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2D90211EDF3F2E008FBDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC2D901B1EDF3F2D008FBDBD = {
+			isa = PBXGroup;
+			children = (
+				FC2D90261EDF3F2E008FBDBD /* WeekCalendar */,
+				FC2D90251EDF3F2E008FBDBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2D90251EDF3F2E008FBDBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2D90241EDF3F2E008FBDBD /* WeekCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2D90261EDF3F2E008FBDBD /* WeekCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				FC2D90271EDF3F2E008FBDBD /* AppDelegate.swift */,
+				FC2D90291EDF3F2E008FBDBD /* WeekCalendar.swift */,
+				FC2D902B1EDF3F2E008FBDBD /* Main.storyboard */,
+				FC2D902E1EDF3F2E008FBDBD /* Assets.xcassets */,
+				FC2D90301EDF3F2E008FBDBD /* LaunchScreen.storyboard */,
+				FC2D90331EDF3F2E008FBDBD /* Info.plist */,
+				FC2D90391EDF43FE008FBDBD /* Date.swift */,
+				CECD608E1EDFE29900DA9952 /* WeekCalendarCell.swift */,
+			);
+			path = WeekCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2D90231EDF3F2E008FBDBD /* WeekCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2D90361EDF3F2E008FBDBD /* Build configuration list for PBXNativeTarget "WeekCalendar" */;
+			buildPhases = (
+				FC2D90201EDF3F2E008FBDBD /* Sources */,
+				FC2D90211EDF3F2E008FBDBD /* Frameworks */,
+				FC2D90221EDF3F2E008FBDBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeekCalendar;
+			productName = WeekCalendar;
+			productReference = FC2D90241EDF3F2E008FBDBD /* WeekCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2D901C1EDF3F2D008FBDBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "vikram singh rajpoot";
+				TargetAttributes = {
+					FC2D90231EDF3F2E008FBDBD = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC2D901F1EDF3F2D008FBDBD /* Build configuration list for PBXProject "WeekCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2D901B1EDF3F2D008FBDBD;
+			productRefGroup = FC2D90251EDF3F2E008FBDBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2D90231EDF3F2E008FBDBD /* WeekCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2D90221EDF3F2E008FBDBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2D90321EDF3F2E008FBDBD /* LaunchScreen.storyboard in Resources */,
+				FC2D902F1EDF3F2E008FBDBD /* Assets.xcassets in Resources */,
+				FC2D902D1EDF3F2E008FBDBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2D90201EDF3F2E008FBDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2D902A1EDF3F2E008FBDBD /* WeekCalendar.swift in Sources */,
+				FC2D903A1EDF43FE008FBDBD /* Date.swift in Sources */,
+				FC2D90281EDF3F2E008FBDBD /* AppDelegate.swift in Sources */,
+				CECD608F1EDFE29900DA9952 /* WeekCalendarCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC2D902B1EDF3F2E008FBDBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2D902C1EDF3F2E008FBDBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC2D90301EDF3F2E008FBDBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2D90311EDF3F2E008FBDBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2D90341EDF3F2E008FBDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC2D90351EDF3F2E008FBDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC2D90371EDF3F2E008FBDBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeekCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vikram.WeekCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FC2D90381EDF3F2E008FBDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeekCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vikram.WeekCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2D901F1EDF3F2D008FBDBD /* Build configuration list for PBXProject "WeekCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2D90341EDF3F2E008FBDBD /* Debug */,
+				FC2D90351EDF3F2E008FBDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2D90361EDF3F2E008FBDBD /* Build configuration list for PBXNativeTarget "WeekCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2D90371EDF3F2E008FBDBD /* Debug */,
+				FC2D90381EDF3F2E008FBDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2D901C1EDF3F2D008FBDBD /* Project object */;
+}
